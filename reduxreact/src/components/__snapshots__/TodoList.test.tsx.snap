@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="todo__list"
+      >
+        <h2
+          class="todo__list-title"
+        >
+          What do you need to do today?
+        </h2>
+        <div>
+          <form
+            class="form__container"
+            id="form"
+          >
+            
+            <input
+              class="form__input-title"
+              id="txtTodoItemToAdd"
+              placeholder="Add new task"
+              type="text"
+              value=""
+            />
+            <input
+              class="form__input-description"
+              id="inputDescription"
+              placeholder="description"
+              type="text"
+              value=""
+            />
+            <input
+              class="form__input-add"
+              id="btnAddTodo"
+              type="submit"
+              value="Add todo"
+            />
+          </form>
+        </div>
+        <ul
+          class="list--container"
+          id="todoList"
+        />
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="todo__list"
+    >
+      <h2
+        class="todo__list-title"
+      >
+        What do you need to do today?
+      </h2>
+      <div>
+        <form
+          class="form__container"
+          id="form"
+        >
+          
+          <input
+            class="form__input-title"
+            id="txtTodoItemToAdd"
+            placeholder="Add new task"
+            type="text"
+            value=""
+          />
+          <input
+            class="form__input-description"
+            id="inputDescription"
+            placeholder="description"
+            type="text"
+            value=""
+          />
+          <input
+            class="form__input-add"
+            id="btnAddTodo"
+            type="submit"
+            value="Add todo"
+          />
+        </form>
+      </div>
+      <ul
+        class="list--container"
+        id="todoList"
+      />
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

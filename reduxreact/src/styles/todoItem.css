@@ -1,0 +1,74 @@
+.list__todo-item {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #f4f2f2;
+  font-size: 18px;
+  transition: 0.2s;
+  min-height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 0px rgb(155, 153, 153);
+}
+.list__todo-item:hover {
+  background: rgb(172, 171, 171);
+}
+.list__todo-item:nth-child(odd) {
+  background-color: #efefef;
+  box-shadow: 0 0 1px 0px rgb(155, 153, 153);
+}
+.list__todo-item:nth-child(odd):hover {
+  background-color: rgb(172, 171, 171);
+}
+.list__title {
+  margin: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #383d4d;
+  text-indent: 18px;
+  word-break: break-all;
+  margin-right: 90px;
+}
+.list__description {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #383d4d;
+  text-indent: 18px;
+  word-break: break-all;
+  margin-right: 90px;
+}
+.todo--completed {
+  background: #d1d1d1;
+  color: #fff;
+  text-decoration: line-through;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  font-size: 18px;
+  min-height: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 0px rgb(155, 153, 153);
+}
+.todo--completed::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 13px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 27px;
+  width: 11px;
+}
+@media (min-width: 667px) {
+  .todo__list {
+    width: 600px;
+  }
+  .list__title {
+    font-size: 20px;
+  }
+  .list__description {
+    font-size: 18px;
+  }
+}

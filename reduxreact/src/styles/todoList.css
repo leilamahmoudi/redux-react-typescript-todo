@@ -1,0 +1,23 @@
+.list--container {
+  list-style-type: none;
+}
+.todo__list {
+  border-radius: 12px;
+  box-shadow: (0 4px 16px #aaa);
+  margin: 30px auto;
+}
+.todo__list-title {
+  font-size: 24px;
+  text-align: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  margin: 0;
+  color: white;
+  background: #7882a4;
+  line-height: 3;
+}
+@media (min-width: 667px) {
+  .todo__list {
+    width: 600px;
+  }
+}

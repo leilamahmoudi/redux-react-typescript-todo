@@ -1,0 +1,12 @@
+.todo__button--remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 23px 16px;
+  border-radius: 5px;
+  background-color: #d5bfbf;
+}
+.todo__button--remove:hover {
+  background-color: #f44336;
+  color: white;
+}
